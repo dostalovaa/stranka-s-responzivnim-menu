@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  align-items: center;
+  background-color: rgba(206, 152, 152);
+  height: 70px;
+}
+.logo {
+  flex-grow: 1;
+}
+.logo img {
+  max-width: 100%;
+  margin-left: 20px;
+  height: 40px;
+  object-fit: cover;
+}
+nav {
+  margin-right: 30px;
+}
+nav li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 20px;
+}
+nav li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.menu-icon {
+  display: none;
+  margin-right: 30px;
+}
+.welcome {
+  background: url(img/acne-studios-background.png);
+  min-height: calc(100vh - 70px);
+  background-size: cover;
+  background-position: center;
+}
